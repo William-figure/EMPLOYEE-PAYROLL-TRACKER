@@ -28,7 +28,7 @@ const displayAverageSalary = function (employeesArray) {
   console.log(
     `The average employee salary between our ${
       employeesArray.length
-    } employee(s) is ${(total / employeesArray.length).toFixed(2)}`
+    } employee(s) is $${(total / employeesArray.length).toFixed(2)}`
   )
   // return (total / employeesArray.length)
 }
